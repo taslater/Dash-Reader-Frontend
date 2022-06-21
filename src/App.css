@@ -1,5 +1,6 @@
 :root {
-  --app-lr-pad: 2em;
+  --app-lr-pad: 3em;
+  --app-width: min(800px, calc(100vw - 2 * var(--app-lr-pad)));
 }
 
 .App {
@@ -7,8 +8,7 @@
   flex-direction: column;
   align-items: center;
   margin:auto;
-  padding: 0 var(--app-lr-pad) 1em var(--app-lr-pad);
-  max-width: 800px;
+  width: var(--app-width);
   height: 100vh;
 }
 
@@ -19,9 +19,7 @@
 
 .title {
   text-align: center;
-  font-size: min(
-    80px,
-    calc(0.22 * (50vw - var(--app-lr-pad))));
+  font-size: calc(0.11 * var(--app-width));
 }
 
 .footer {
