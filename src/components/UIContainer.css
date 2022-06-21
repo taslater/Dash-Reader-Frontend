@@ -7,17 +7,20 @@
   /* width: 80vw; */
   width: 100%;
   max-width: 800px;
-  height: 60vh;
   position: relative;
+  max-height: 1000px;
+  flex-grow: 1;
+  margin-bottom: 1em;
 }
 
 .textarea {
   background: var(--acc-secondary-color);
-  filter: brightness(110%);
+  filter: brightness(105%);
   position: absolute;
   margin: var(--text-area-margin);
   border: 0;
   width: calc(100% - 2 * var(--text-area-margin));
+  height: calc(100% - 2 * var(--text-area-margin));
   padding: 0;
 }
 
