@@ -1,52 +1,51 @@
 import './App.css';
-import UI from './components/UI';
 import UIContainer from './components/UIContainer';
 
 
 function App() {
-  const reader_uis = [
-    <UI
-      reader_name="Input"
-      keyValue="input"
-      buttonNames={[
-        "Font",
-        "Theme",
-        "Clear",
-        "Timer",
-        "Random",
-        "Clear"
-      ]}
-      isInput={true}
-      />,
-    <UI
-      reader_name="RSVP"
-      keyValue="rsvp"
-      buttonNames={[
-        "Font",
-        "WPM",
-        "Theme",
-        "Clear",
-        "Timer",
-        "Random",
-        "Clear"
-      ]}
-      isInput={false}
-      />,
-    <UI
-      reader_name="Binonic"
-      keyValue="binonic"
-      buttonNames={[
-        "Font",
-        "WPM",
-        "Theme",
-        "Clear",
-        "Timer",
-        "Random",
-        "Clear"
-      ]}
-      isInput={false}
-      />,
-  ]
+  // const reader_uis = [
+  //   <UI
+  //     reader_name="Input"
+  //     keyValue="input"
+  //     buttonNames={[
+  //       "Font",
+  //       "Theme",
+  //       "Clear",
+  //       "Timer",
+  //       "Random",
+  //       "Clear"
+  //     ]}
+  //     isInput={true}
+  //     />,
+  //   <UI
+  //     reader_name="RSVP"
+  //     keyValue="rsvp"
+  //     buttonNames={[
+  //       "Font",
+  //       "WPM",
+  //       "Theme",
+  //       "Clear",
+  //       "Timer",
+  //       "Random",
+  //       "Clear"
+  //     ]}
+  //     isInput={false}
+  //     />,
+  //   <UI
+  //     reader_name="Binonic"
+  //     keyValue="binonic"
+  //     buttonNames={[
+  //       "Font",
+  //       "WPM",
+  //       "Theme",
+  //       "Clear",
+  //       "Timer",
+  //       "Random",
+  //       "Clear"
+  //     ]}
+  //     isInput={false}
+  //     />,
+  // ]
   return (
     <div className="App">
       <header className="header">
@@ -65,7 +64,7 @@ function App() {
           </nav>
         </div>
       </header>
-      <UIContainer reader_uis={reader_uis}/>
+      <UIContainer/>
       <footer>
         <p>Check out our <a href="https://readgood.azurewebsites.net/">API</a></p>
       </footer>
