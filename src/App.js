@@ -1,12 +1,10 @@
 import './App.css';
 import UI from './components/UI';
-import InputUI from './components/InputUI';
 import UIContainer from './components/UIContainer';
 
 
 function App() {
   const reader_uis = [
-    // <InputUI />,
     <UI
       reader_name="Input"
       key="input"
