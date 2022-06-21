@@ -32,7 +32,7 @@ function UIContainer(props) {
       <div>
         <textarea name="" id="" cols="30" rows="10" className='textarea'></textarea>
         <label htmlFor="reader-ui-select"></label>
-        <select name="reader-uis" id="reader-ui-select" onChange={selectHandler}>
+        <select className="readerdrop" name="reader-uis" id="reader-ui-select" onChange={selectHandler}>
           {readerUISelectOptions}
         </select>
       </div>

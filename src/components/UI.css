@@ -2,9 +2,11 @@
   display: flex;
   flex-direction: column;
   padding: 1em;
-  background-color: aquamarine;
+  background-color: var(--acc-primary-color);
 }
 
 .optionButton {
   margin: 0.25em;
+  font-family: arvo;
+  color: var(--font-color)
 }

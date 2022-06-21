@@ -1,8 +1,14 @@
 .main {
-  background: skyblue;
+  background: var(--acc-secondary-color);
   padding: 1em;
 }
 
 .textarea {
-  background: azure;
+  background: var(--acc-secondary-color);
+  filter: brightness(110%);
+}
+
+.readerdrop {
+  color: var(--font-color);
+  font-family: arvo;
 }

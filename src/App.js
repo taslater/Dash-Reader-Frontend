@@ -37,7 +37,7 @@ function App() {
   ]
   return (
     <div className="App">
-      <h1>--Dash Reader--</h1>
+      <h1 className="header">--Dash Reader--</h1>
       <UIContainer reader_uis={reader_uis}/>
     </div>
   );
