@@ -10,6 +10,10 @@ function UIContainer() {
     setInputText(e.target.value)
   }
 
+  const getBinonic = (message) => {
+    return message.toUpperCase()
+  }
+
   const reader_uis = [
     <UI
       reader_name="Input"
@@ -39,8 +43,7 @@ function UIContainer() {
         "Clear"
       ]}
       isInput={false}
-      inputText={inputText}
-      />,
+      inputText={inputText}/>,
     <UI
       reader_name="Binonic"
       keyValue="binonic"
@@ -55,7 +58,7 @@ function UIContainer() {
       ]}
       isInput={false}
       inputText={inputText}
-      />,
+      getBinonic={getBinonic}/>,
   ]
 
   const readerUIDict = {}
