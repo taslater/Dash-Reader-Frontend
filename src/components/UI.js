@@ -1,4 +1,3 @@
-// import React from 'react'
 import './UI.css';
 
 function UI(props) {
