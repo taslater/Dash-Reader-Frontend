@@ -10,16 +10,7 @@ function UI(props) {
   }
   return (
     <section className='uisection'>
-      {props.isInput ?
-        <textarea
-          name=""
-          id=""
-          className="textarea"
-          onChange={props.handleInput}
-          value={props.initialValue}
-        ></textarea> :
-        <div id={props.keyValue}>{props.inputText}</div>
-      }
+      {props.children}
       <section className='optionButtons'>{optionButtons}</section>
     </section>
   )

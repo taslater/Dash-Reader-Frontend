@@ -5,6 +5,7 @@ import React, { useState } from 'react'
 function UIContainer() {
 
   const [inputText, setInputText] = useState("")
+  const [binonicText, setBinonicText] = useState("")
 
   const textInputHandler = (e) => {
     setInputText(e.target.value)
@@ -25,11 +26,13 @@ function UIContainer() {
         "Timer",
         "Random",
         "Clear"
-      ]}
-      isInput={true}
-      handleInput={textInputHandler}
-      initialValue={inputText}
-      />,
+      ]}>
+      <textarea
+        className="textarea"
+        onChange={textInputHandler}
+        value={inputText}>
+      </textarea>
+    </UI>,
     <UI
       reader_name="RSVP"
       keyValue="rsvp"
@@ -41,9 +44,9 @@ function UIContainer() {
         "Timer",
         "Random",
         "Clear"
-      ]}
-      isInput={false}
-      inputText={inputText}/>,
+      ]}>
+      <div id="rsvp-div">{inputText}</div>
+    </UI>,
     <UI
       reader_name="Binonic"
       keyValue="binonic"
@@ -55,10 +58,9 @@ function UIContainer() {
         "Timer",
         "Random",
         "Clear"
-      ]}
-      isInput={false}
-      inputText={inputText}
-      getBinonic={getBinonic}/>,
+      ]}>
+      <div dangerouslySetInnerHTML={{__html: binonicText}} className="binonicTextDiv"></div>
+    </UI>,
   ]
 
   const readerUIDict = {}
@@ -79,8 +81,24 @@ function UIContainer() {
     return readerUIDict[optionKey]
   }
 
-  const selectHandler = (e) => {
-    setOptionKey(e.target.value)
+  const selectHandler = async (e) => {
+    const selectValue = e.target.value
+    if (selectValue == "binonic") {
+      await updateBinonic()
+    }
+    setOptionKey(selectValue)
+  }
+
+  const updateBinonic = async () => {
+    const fetchurl = `https://readgood.azurewebsites.net/hello?message=${inputText}`
+    fetch(fetchurl)
+      // Sets reponse to take in the api as a json
+      .then(response => response.json())
+      // .textBlock refers to the json variable that was made in the Spring Boot API that takes in user input and alters it
+      .then((response) => response.textBlock)
+      //.then(json => { document.getElementById("displayContainer").innerHTML = json })
+      .then(binonicResult => setBinonicText(binonicResult))
+      .catch(err => console.log(err))
   }
 
   return (

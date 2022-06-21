@@ -4,7 +4,6 @@
 
 .main {
   background: var(--acc-secondary-color);
-  /* width: 80vw; */
   width: 100%;
   position: relative;
   max-height: 1000px;
@@ -12,20 +11,12 @@
   margin-bottom: 1em;
 }
 
-/* .textarea {
-  background: var(--acc-secondary-color);
-  filter: brightness(105%);
-  position: absolute;
-  margin: var(--text-area-margin);
-  border: 0;
-  width: calc(100% - 2 * var(--text-area-margin));
-  height: calc(100% - 2 * var(--text-area-margin));
-  padding: 0;
-  resize: none;
-} */
-
 .readerdrop {
   color: var(--font-color);
   font-family: arvo;
   position: absolute;
+}
+
+.binonicTextDiv {
+  font-family: 'Times New Roman', Times, serif;
 }
