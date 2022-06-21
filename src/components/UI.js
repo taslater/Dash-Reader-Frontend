@@ -10,10 +10,10 @@ function UI(props) {
     )
   }
   return (
-    <main className='main'>
+    <section className='uisection'>
       <h2>{props.reader_name}</h2>
       <section className='optionButtons'>{optionButtons}</section>
-    </main>
+    </section>
   )
 }
 

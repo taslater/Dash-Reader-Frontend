@@ -1,14 +1,26 @@
+:root {
+  --text-area-margin: 2em;
+}
+
 .main {
   background: var(--acc-secondary-color);
-  padding: 1em;
+  width: 80vw;
+  height: 50vw;
+  position: relative;
 }
 
 .textarea {
   background: var(--acc-secondary-color);
   filter: brightness(110%);
+  position: absolute;
+  margin: var(--text-area-margin);
+  border: 0;
+  width: calc(100% - 2 * var(--text-area-margin));
+  padding: 0;
 }
 
 .readerdrop {
   color: var(--font-color);
   font-family: arvo;
+  position: absolute;
 }
