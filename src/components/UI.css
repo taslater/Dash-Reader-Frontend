@@ -1,4 +1,7 @@
 .optionButtons{
+  position: absolute;
+  right: 0;
+  top: 0;
   display: flex;
   flex-direction: column;
   padding: 1em;
