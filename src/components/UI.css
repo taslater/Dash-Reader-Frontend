@@ -1,0 +1,10 @@
+.optionButtons{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  background-color: aquamarine;
+}
+
+.optionButton {
+  margin: 0.25em;
+}
