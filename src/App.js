@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <h1 className='title'>--Dash Reader--</h1>
+        <h1 className="title">--Dash Reader--</h1>
         <div class="pos-f-t">
           <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">

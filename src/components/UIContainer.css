@@ -6,7 +6,6 @@
   background: var(--acc-secondary-color);
   /* width: 80vw; */
   width: 100%;
-  max-width: 800px;
   position: relative;
   max-height: 1000px;
   flex-grow: 1;
