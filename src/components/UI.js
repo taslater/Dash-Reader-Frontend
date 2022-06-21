@@ -10,6 +10,10 @@ function UI(props) {
   }
   return (
     <section className='uisection'>
+      {props.isInput ?
+        <textarea name="" id="" className="textarea"></textarea> :
+        <div id={props.keyValue}></div>
+      }
       <section className='optionButtons'>{optionButtons}</section>
     </section>
   )

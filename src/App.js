@@ -7,7 +7,7 @@ function App() {
   const reader_uis = [
     <UI
       reader_name="Input"
-      key="input"
+      keyValue="input"
       buttonNames={[
         "Font",
         "Theme",
@@ -15,10 +15,12 @@ function App() {
         "Timer",
         "Random",
         "Clear"
-      ]}/>,
+      ]}
+      isInput={true}
+      />,
     <UI
       reader_name="RSVP"
-      key="rsvp"
+      keyValue="rsvp"
       buttonNames={[
         "Font",
         "WPM",
@@ -27,10 +29,12 @@ function App() {
         "Timer",
         "Random",
         "Clear"
-      ]}/>,
+      ]}
+      isInput={false}
+      />,
     <UI
       reader_name="Binonic"
-      key="binonic"
+      keyValue="binonic"
       buttonNames={[
         "Font",
         "WPM",
@@ -39,22 +43,24 @@ function App() {
         "Timer",
         "Random",
         "Clear"
-      ]}/>,
+      ]}
+      isInput={false}
+      />,
   ]
   return (
     <div className="App">
       <header className="header">
         <h1 className="title">--Dash Reader--</h1>
-        <div class="pos-f-t">
-          <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-dark p-4">
-              <h5 class="text-white h4">Collapsed content</h5>
-              <span class="text-muted">Toggleable via the navbar brand.</span>
+        <div className="pos-f-t">
+          <div className="collapse" id="navbarToggleExternalContent">
+            <div className="bg-dark p-4">
+              <h5 className="text-white h4">Collapsed content</h5>
+              <span className="text-muted">Toggleable via the navbar brand.</span>
             </div>
           </div>
-          <nav class="navbar navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+          <nav className="navbar navbar-dark bg-dark">
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
             </button>
           </nav>
         </div>

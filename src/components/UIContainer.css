@@ -12,7 +12,7 @@
   margin-bottom: 1em;
 }
 
-.textarea {
+/* .textarea {
   background: var(--acc-secondary-color);
   filter: brightness(105%);
   position: absolute;
@@ -22,7 +22,7 @@
   height: calc(100% - 2 * var(--text-area-margin));
   padding: 0;
   resize: none;
-}
+} */
 
 .readerdrop {
   color: var(--font-color);
