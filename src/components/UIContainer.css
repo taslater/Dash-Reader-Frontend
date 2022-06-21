@@ -4,8 +4,10 @@
 
 .main {
   background: var(--acc-secondary-color);
-  width: 80vw;
-  height: 50vw;
+  /* width: 80vw; */
+  width: 100%;
+  max-width: 600px;
+  height: 60vh;
   position: relative;
 }
 
