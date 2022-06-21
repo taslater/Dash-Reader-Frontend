@@ -1,6 +1,9 @@
 :root {
   --app-lr-pad: 3em;
-  --app-width: min(800px, calc(100vw - 2 * var(--app-lr-pad)));
+  --app-max-width: 1000px;
+  --app-width: min(
+    var(--app-max-width),
+    calc(100vw - 2 * var(--app-lr-pad)));
 }
 
 .App {
