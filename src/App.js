@@ -21,9 +21,9 @@ function App() {
           </nav>
         </div>
       </header>
-      <UIContainer/>
+      <UIContainer />
       <footer>
-        <a href="https://readgood.azurewebsites.net/">
+        <a href="https://readgood.azurewebsites.net/" target="_blank" rel="noopener noreferrer">
           <p className='footer-api-link'>
             Check out our API
           </p>
