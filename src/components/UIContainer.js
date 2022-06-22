@@ -47,9 +47,15 @@ function UIContainer() {
       <div id="rsvp-div" className="textarea">
         {/* {inputText} */}
         <div className="rsvp-icons">
-          <img src={reset_icon} alt="Reset" width="36" height="36" className="rsvp-icon"></img>
-          <img src={play_icon} alt="Play" width="32" height="32" className="rsvp-icon"></img>
-          <img src={pause_icon} alt="Pause" width="32" height="32" className="rsvp-icon"></img>
+          <button className="rsvp-control-button">
+            <img src={reset_icon} alt="Reset" width="36" height="36" className="rsvp-icon"></img>
+          </button>
+          <button className="rsvp-control-button">
+            <img src={play_icon} alt="Play" width="32" height="32" className="rsvp-icon"></img>
+          </button>
+          <button className="rsvp-control-button">
+            <img src={pause_icon} alt="Pause" width="32" height="32" className="rsvp-icon"></img>
+          </button>
         </div>
       </div>
     </UI>,
