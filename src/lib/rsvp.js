@@ -55,7 +55,7 @@ async function startRsvp(displayId, inputText) {
 
   // const inputText = document.getElementById("reader-text").value;
 
-  const textArray = inputText.split(/[.,\/ -]/);
+  const textArray = inputText.split(/\s+/gm);
 
   for (const word of textArray) {
     if (playing == true) {
