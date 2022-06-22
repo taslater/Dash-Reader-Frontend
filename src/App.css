@@ -28,3 +28,10 @@
 .footer {
   padding-top: 1em;
 }
+
+.footer-api-link {
+  background: var(--acc-primary-color);
+  padding-block: 0.3em;
+  padding-inline: 1.5em;
+  border-radius: 0.5em;
+}

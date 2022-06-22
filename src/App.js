@@ -23,7 +23,7 @@ function App() {
       </header>
       <UIContainer/>
       <footer>
-        <p>Check out our <a href="https://readgood.azurewebsites.net/">API</a></p>
+        <p className='footer-api-link'>Check out <a href="https://readgood.azurewebsites.net/">our API</a></p>
       </footer>
     </div>
   );
