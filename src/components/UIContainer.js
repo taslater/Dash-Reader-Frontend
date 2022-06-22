@@ -1,7 +1,7 @@
 import './UIContainer.css'
 import UI from './UI';
-import MediaControl from './MediaControl';
 import React, { useState } from 'react'
+import RsvpComponent from './RsvpComponent';
 
 
 function UIContainer() {
@@ -44,7 +44,7 @@ function UIContainer() {
       ]}>
       <div id="rsvp-div" className="textarea">
         {/* {inputText} */}
-        <MediaControl />
+        <RsvpComponent inputText={inputText}/>
       </div>
     </UI>,
     <UI
