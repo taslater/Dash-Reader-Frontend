@@ -1,5 +1,6 @@
 import './App.css';
 import UIContainer from './components/UIContainer';
+import About from './navbar/About'
 
 
 function App() {
@@ -10,7 +11,6 @@ function App() {
         <div className="pos-f-t">
           <div className="collapse hamburger-expand-container" id="navbarToggleExternalContent">
             <div className="hamburger-expand-div">
-
               <div className="text-dark h4" id="readerAbout">About the Readers</div>
               <a href="https://github.com/taslater/Dash-Reader-Frontend" target="_blank" rel="noopener noreferrer"><div className="text-dark h4" id="githubLink">Github</div></a>
 
