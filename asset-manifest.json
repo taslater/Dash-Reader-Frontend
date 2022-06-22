@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/Dash-Reader-Frontend/static/css/main.2e2a5251.css",
-    "main.js": "/Dash-Reader-Frontend/static/js/main.9867b6f5.js",
+    "main.css": "/Dash-Reader-Frontend/static/css/main.c6348523.css",
+    "main.js": "/Dash-Reader-Frontend/static/js/main.df427d01.js",
     "static/js/787.68c0d745.chunk.js": "/Dash-Reader-Frontend/static/js/787.68c0d745.chunk.js",
     "static/media/OpenDyslexic-Regular.otf": "/Dash-Reader-Frontend/static/media/OpenDyslexic-Regular.d9b06c5ffd7d312017e5.otf",
     "static/media/Arvo-Regular.ttf": "/Dash-Reader-Frontend/static/media/Arvo-Regular.e3d3d53c44db025c4592.ttf",
     "index.html": "/Dash-Reader-Frontend/index.html",
-    "main.2e2a5251.css.map": "/Dash-Reader-Frontend/static/css/main.2e2a5251.css.map",
-    "main.9867b6f5.js.map": "/Dash-Reader-Frontend/static/js/main.9867b6f5.js.map",
+    "static/media/pause-circle.svg": "/Dash-Reader-Frontend/static/media/pause-circle.f511f01f3bcaeca8e445fd56ab2a1926.svg",
+    "static/media/arrow-clockwise.svg": "/Dash-Reader-Frontend/static/media/arrow-clockwise.2ba775456dd6033575190ba73b148bac.svg",
+    "static/media/play-circle.svg": "/Dash-Reader-Frontend/static/media/play-circle.af4c6fc2a07a71414616337856aebf7a.svg",
+    "main.c6348523.css.map": "/Dash-Reader-Frontend/static/css/main.c6348523.css.map",
+    "main.df427d01.js.map": "/Dash-Reader-Frontend/static/js/main.df427d01.js.map",
     "787.68c0d745.chunk.js.map": "/Dash-Reader-Frontend/static/js/787.68c0d745.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e2a5251.css",
-    "static/js/main.9867b6f5.js"
+    "static/css/main.c6348523.css",
+    "static/js/main.df427d01.js"
   ]
 }
