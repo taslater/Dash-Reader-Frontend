@@ -35,6 +35,7 @@ body {
   border-width: 2px;
   border-style: solid;
   border-color: var(--font-color) !important;
+  transform: translate(2.5em, -0.25em);
 }
 
 .hamburger-expand-div {

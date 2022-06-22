@@ -1,17 +1,18 @@
 .optionButtons{
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 1.5em;
+  top: 2em;
   display: flex;
   flex-direction: column;
   padding: 1em;
   background-color: var(--acc-primary-color);
+  border-radius: 0.5em;
 }
 
 .optionButton {
   margin: 0.25em;
   font-family: arvo;
-  color: var(--font-color)
+  color: var(--font-color);
 }
 
 .uisection {

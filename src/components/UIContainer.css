@@ -9,6 +9,7 @@
   max-height: 1000px;
   flex-grow: 1;
   margin-bottom: 1em;
+  border-radius: 0.75em;
 }
 
 .reader-ui-select-container {
@@ -18,12 +19,16 @@
 .reader-select {
   color: var(--font-color);
   font-family: arvo;
-  font-size: 1.25em;
+  font-size: min(30px, max(16px, calc(0.055 * var(--app-width))));
   position: absolute;
+  top: -1.5em;
+  left: 0.25em;
+  text-align: center;
   background: var(--acc-primary-color);
   padding: 0.5em;
   border-radius: 0.3em;
   z-index: 1;
+  border: none;
 }
 
 .textarea {
@@ -40,4 +45,6 @@
   resize: none;
   word-break: break-all;
   word-wrap: break-word;
+  border-radius: 0.5em;
+  border: 1px solid var(--font-color);
 }

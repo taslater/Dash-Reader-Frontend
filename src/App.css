@@ -1,5 +1,5 @@
 :root {
-  --app-lr-pad: 3em;
+  --app-lr-pad: 4em;
   --app-max-width: 1000px;
   --app-width: min(
     var(--app-max-width),
