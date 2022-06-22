@@ -1,0 +1,55 @@
+:root {
+  --bs-red: red;
+  --bs-secondary: rgb(164, 164, 164);
+}
+
+#RSVP-container > div {
+  display: flex;
+}
+
+.RSVP-word {
+  line-height: 1em;
+  min-height: 1em;
+}
+
+.RSVP-left {
+  flex: 1;
+  text-align: right;
+}
+
+.RSVP-mid {
+  color: var(--bs-red);
+  text-align: center;
+}
+
+.RSVP-right {
+  flex: 1;
+  text-align: left;
+}
+
+.RSVP-marker {
+  text-align: center;
+}
+
+.RSVP-notch {
+  height: 0.5em;
+  border-right: 2px solid var(--bs-secondary);
+}
+
+.RSVP-border,
+.RSVP-border > div {
+  margin: 0;
+  padding: 0;
+}
+
+.RSVP-border-top {
+  border-top-width: 2px;
+  border-top-color: var(--bs-secondary);
+  border-top-style: solid;
+}
+
+.RSVP-border-bottom {
+  border-bottom-width: 2px;
+  border-bottom-color: var(--bs-secondary);
+  border-bottom-style: solid;
+}
