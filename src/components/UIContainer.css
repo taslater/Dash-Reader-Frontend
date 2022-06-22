@@ -29,6 +29,7 @@
   border-radius: 0.3em;
   z-index: 1;
   border: none;
+  cursor: pointer;
 }
 
 .textarea {
@@ -59,5 +60,13 @@
 }
 
 .rsvp-icon {
-  margin: 0.5em;
+  /* margin: 0.5em; */
+}
+
+.rsvp-control-button {
+  border: none;
+  background: none;
+  /* outline: none; */
+  /* border-radius: 50%; */
+  padding: 0.5em;
 }

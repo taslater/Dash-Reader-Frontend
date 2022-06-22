@@ -10,8 +10,10 @@ function App() {
         <div className="pos-f-t">
           <div className="collapse hamburger-expand-container" id="navbarToggleExternalContent">
             <div className="hamburger-expand-div">
-              {/* <h5 className="text-dark h4">Wowa, surprise!</h5> */}
-              <span className="text-muted"><button>About</button><button>Github</button></span>
+
+              <div className="text-dark h4" id="readerAbout">About the Readers</div>
+              <a href="https://github.com/taslater/Dash-Reader-Frontend" target="_blank" rel="noopener noreferrer"><div className="text-dark h4" id="githubLink">Github</div></a>
+
             </div>
           </div>
           <nav className="navbar navbar-light bg-transparent float-right">
@@ -21,9 +23,9 @@ function App() {
           </nav>
         </div>
       </header>
-      <UIContainer/>
+      <UIContainer />
       <footer>
-        <a href="https://readgood.azurewebsites.net/">
+        <a href="https://readgood.azurewebsites.net/" target="_blank" rel="noopener noreferrer">
           <p className='footer-api-link'>
             Check out our API
           </p>
