@@ -34,7 +34,8 @@
 .textarea {
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
-  background: var(--acc-secondary-color);
+  /* background: var(--acc-secondary-color); */
+  background: none;
   filter: brightness(105%);
   position: absolute;
   margin: var(--text-area-margin);
@@ -47,4 +48,16 @@
   word-wrap: break-word;
   border-radius: 0.5em;
   border: 1px solid var(--font-color);
+}
+
+.rsvp-icons {
+  display: flex;
+  /* align-items: center; */
+  /* border: 1px solid red; */
+  width: min-content;
+  margin: auto;
+}
+
+.rsvp-icon {
+  margin: 0.5em;
 }
