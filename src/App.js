@@ -10,8 +10,8 @@ function App() {
         <div className="pos-f-t">
           <div className="collapse hamburger-expand-container" id="navbarToggleExternalContent">
             <div className="hamburger-expand-div">
-              <h5 className="text-dark h4">Wowa, surprise!</h5>
-              <span className="text-muted">Yr glad u clicked</span>
+              {/* <h5 className="text-dark h4">Wowa, surprise!</h5> */}
+              <span className="text-muted"><button>About</button><button>Github</button></span>
             </div>
           </div>
           <nav className="navbar navbar-light bg-transparent float-right">

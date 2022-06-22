@@ -1,12 +1,13 @@
 .optionButtons{
   position: absolute;
-  right: 1.5em;
-  top: 2em;
+  right: 3.5em;
+  top: -2.5em;
   display: flex;
   flex-direction: column;
   padding: 1em;
   background-color: var(--acc-primary-color);
   border-radius: 0.5em;
+  color: var(--font-color);
 }
 
 .optionButton {

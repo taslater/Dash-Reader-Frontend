@@ -17,7 +17,7 @@
 }
 
 .reader-select {
-  color: var(--font-color);
+  color: brightness(120%) var(--font-color);
   font-family: arvo;
   font-size: min(30px, max(16px, calc(0.055 * var(--app-width))));
   position: absolute;
