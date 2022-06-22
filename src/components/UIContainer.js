@@ -20,7 +20,7 @@ function UIContainer() {
       buttonNames={[
         "Font",
         "Theme",
-        "Clear",
+        "WPM",
         "Timer",
         "Random",
         "Clear"
@@ -38,7 +38,6 @@ function UIContainer() {
         "Font",
         "WPM",
         "Theme",
-        "Clear",
         "Timer",
         "Random",
         "Clear"
@@ -55,7 +54,6 @@ function UIContainer() {
         "Font",
         "WPM",
         "Theme",
-        "Clear",
         "Timer",
         "Random",
         "Clear"
