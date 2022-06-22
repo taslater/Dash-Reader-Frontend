@@ -11,10 +11,6 @@ function UIContainer() {
     setInputText(e.target.value)
   }
 
-  const getBinonic = (message) => {
-    return message.toUpperCase()
-  }
-
   const reader_uis = [
     <UI
       reader_name="Input"
@@ -45,7 +41,7 @@ function UIContainer() {
         "Random",
         "Clear"
       ]}>
-      <div id="rsvp-div">{inputText}</div>
+      <div id="rsvp-div" className="textarea">{inputText}</div>
     </UI>,
     <UI
       reader_name="Binonic"
@@ -59,7 +55,7 @@ function UIContainer() {
         "Random",
         "Clear"
       ]}>
-      <div dangerouslySetInnerHTML={{__html: binonicText}} className="binonicTextDiv"></div>
+      <div dangerouslySetInnerHTML={{__html: binonicText}} className="textarea"></div>
     </UI>,
   ]
 
@@ -83,7 +79,7 @@ function UIContainer() {
 
   const selectHandler = async (e) => {
     const selectValue = e.target.value
-    if (selectValue == "binonic") {
+    if (selectValue === "binonic") {
       await updateBinonic()
     }
     setOptionKey(selectValue)
@@ -92,20 +88,16 @@ function UIContainer() {
   const updateBinonic = async () => {
     const fetchurl = `https://readgood.azurewebsites.net/hello?message=${inputText}`
     fetch(fetchurl)
-      // Sets reponse to take in the api as a json
       .then(response => response.json())
-      // .textBlock refers to the json variable that was made in the Spring Boot API that takes in user input and alters it
       .then((response) => response.textBlock)
-      //.then(json => { document.getElementById("displayContainer").innerHTML = json })
       .then(binonicResult => setBinonicText(binonicResult))
       .catch(err => console.log(err))
   }
 
   return (
     <main className='main'>
-      <div>
-        <label htmlFor="reader-ui-select"></label>
-        <select className="readerdrop" name="reader-uis" id="reader-ui-select" onChange={selectHandler}>
+      <div className="reader-ui-select-container">
+        <select className="reader-select" onChange={selectHandler}>
           {readerUISelectOptions}
         </select>
       </div>

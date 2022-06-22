@@ -11,12 +11,33 @@
   margin-bottom: 1em;
 }
 
-.readerdrop {
-  color: var(--font-color);
-  font-family: arvo;
+.reader-ui-select-container {
   position: absolute;
 }
 
-.binonicTextDiv {
+.reader-select {
+  color: var(--font-color);
+  font-family: arvo;
+  font-size: 1.25em;
+  position: absolute;
+  background: var(--acc-primary-color);
+  padding: 0.5em;
+  border-radius: 0.3em;
+  z-index: 1;
+}
+
+.textarea {
   font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  background: var(--acc-secondary-color);
+  filter: brightness(105%);
+  position: absolute;
+  margin: var(--text-area-margin);
+  border: 0;
+  width: calc(100% - 2 * var(--text-area-margin));
+  height: calc(100% - 2 * var(--text-area-margin));
+  padding: 2em;
+  resize: none;
+  word-break: break-all;
+  word-wrap: break-word;
 }

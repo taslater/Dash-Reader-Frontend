@@ -14,14 +14,10 @@
   color: var(--font-color)
 }
 
-.textarea {
-  background: var(--acc-secondary-color);
-  filter: brightness(105%);
-  position: absolute;
-  margin: var(--text-area-margin);
-  border: 0;
-  width: calc(100% - 2 * var(--text-area-margin));
-  height: calc(100% - 2 * var(--text-area-margin));
+.uisection {
+  position: relative;
+  margin: 0;
   padding: 0;
-  resize: none;
+  width: 100%;
+  height: 100%;
 }

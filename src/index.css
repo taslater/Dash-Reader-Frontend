@@ -5,6 +5,12 @@
   --font-color: #544F42;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: arvo;
@@ -22,4 +28,24 @@ body {
 @font-face {
   font-family: arvo;
   src: url("static/fonts/ARVO-all/Arvo-Regular.ttf") format("truetype");
+}
+
+.hamburger {
+  background: rgb(255, 255, 255);
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--font-color) !important;
+}
+
+.hamburger-expand-div {
+  background: rgba(255, 255, 255, 0.537);
+  border-radius: 1em;
+  padding: 0.5em;
+  text-align: right;
+  width: max-content;
+}
+
+.hamburger-expand-container.show, .hamburger-expand-container.collapsing  {
+  display: flex;
+  justify-content: flex-end;
 }
