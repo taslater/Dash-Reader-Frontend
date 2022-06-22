@@ -35,6 +35,13 @@
   border-radius: 0.5em;
 }
 
+
+.text-muted{
+  font-family: arvo;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .hamburger-expand-div {
   display: flex;
   justify-content: center;
