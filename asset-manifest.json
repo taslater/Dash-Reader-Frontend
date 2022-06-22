@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dash-reader-frontend/static/css/main.bf2e4b20.css",
-    "main.js": "/dash-reader-frontend/static/js/main.bc9238e7.js",
-    "static/js/787.4c03b0d6.chunk.js": "/dash-reader-frontend/static/js/787.4c03b0d6.chunk.js",
-    "static/media/OpenDyslexic-Regular.otf": "/dash-reader-frontend/static/media/OpenDyslexic-Regular.d9b06c5ffd7d312017e5.otf",
-    "static/media/Arvo-Regular.ttf": "/dash-reader-frontend/static/media/Arvo-Regular.e3d3d53c44db025c4592.ttf",
-    "index.html": "/dash-reader-frontend/index.html",
-    "main.bf2e4b20.css.map": "/dash-reader-frontend/static/css/main.bf2e4b20.css.map",
-    "main.bc9238e7.js.map": "/dash-reader-frontend/static/js/main.bc9238e7.js.map",
-    "787.4c03b0d6.chunk.js.map": "/dash-reader-frontend/static/js/787.4c03b0d6.chunk.js.map"
+    "main.css": "/Dash-Reader-Frontend/static/css/main.2e2a5251.css",
+    "main.js": "/Dash-Reader-Frontend/static/js/main.9867b6f5.js",
+    "static/js/787.68c0d745.chunk.js": "/Dash-Reader-Frontend/static/js/787.68c0d745.chunk.js",
+    "static/media/OpenDyslexic-Regular.otf": "/Dash-Reader-Frontend/static/media/OpenDyslexic-Regular.d9b06c5ffd7d312017e5.otf",
+    "static/media/Arvo-Regular.ttf": "/Dash-Reader-Frontend/static/media/Arvo-Regular.e3d3d53c44db025c4592.ttf",
+    "index.html": "/Dash-Reader-Frontend/index.html",
+    "main.2e2a5251.css.map": "/Dash-Reader-Frontend/static/css/main.2e2a5251.css.map",
+    "main.9867b6f5.js.map": "/Dash-Reader-Frontend/static/js/main.9867b6f5.js.map",
+    "787.68c0d745.chunk.js.map": "/Dash-Reader-Frontend/static/js/787.68c0d745.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf2e4b20.css",
-    "static/js/main.bc9238e7.js"
+    "static/css/main.2e2a5251.css",
+    "static/js/main.9867b6f5.js"
   ]
 }
