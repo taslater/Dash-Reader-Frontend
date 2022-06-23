@@ -25,12 +25,12 @@ function App() {
         </div>
       </header>
       <div id="aboutModal" className="modal fade" role="dialog">
-        <div class="modal-dialog">
+        <div className="modal-dialog">
           <About />
         </div>
       </div>
       <div id="howModal" className="modal fade" role="dialog">
-        <div class="modal-dialog">
+        <div className="modal-dialog">
           <How />
         </div>
       </div>
