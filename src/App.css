@@ -35,16 +35,25 @@
   border-radius: 0.5em;
 }
 
+#aboutReader {
+  outline: none;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
 
-.text-muted{
+.text-muted {
   font-family: arvo;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 .hamburger-expand-div {
   display: flex;
   justify-content: center;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
+  background-color: white;
 }

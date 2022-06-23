@@ -11,9 +11,8 @@ function App() {
         <div className="pos-f-t">
           <div className="collapse hamburger-expand-container" id="navbarToggleExternalContent">
             <div className="hamburger-expand-div">
-              <div className="text-dark h4" id="readerAbout">About the Readers</div>
+              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><div className="text-dark h4" id="readerAbout">About</div></button>
               <a href="https://github.com/taslater/Dash-Reader-Frontend" target="_blank" rel="noopener noreferrer"><div className="text-dark h4" id="githubLink">Github</div></a>
-
             </div>
           </div>
           <nav className="navbar navbar-light bg-transparent float-right">
@@ -23,6 +22,11 @@ function App() {
           </nav>
         </div>
       </header>
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <About />
+        </div>
+      </div>
       <UIContainer />
       <footer>
         <a href="https://readgood.azurewebsites.net/" target="_blank" rel="noopener noreferrer">
