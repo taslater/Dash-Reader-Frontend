@@ -6,11 +6,17 @@ function About() {
     return (
         <div className="modal-content">
             <div className="modal-header">
-                <button type="button" className="close" data-dismiss="modal">&times;</button>
-                <h4 className="modal-title">Modal Header</h4>
+                <h4 className="modal-title">About our Tools</h4>
             </div>
             <div className="modal-body">
-                <p>Some text in the modal.</p>
+                <h5>Binonic Reader</h5>
+                <br></br>
+                <div>This is where the description of the binonic reader will go.</div>
+                <br></br>
+                <h5>RSVP Reader</h5>
+                <br></br>
+                <div>This is where the description of the RSVP reader will go.</div>
+                <br></br>
             </div>
             <div className="modal-footer">
                 <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>

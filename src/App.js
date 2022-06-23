@@ -11,7 +11,7 @@ function App() {
         <div className="pos-f-t">
           <div className="collapse hamburger-expand-container" id="navbarToggleExternalContent">
             <div className="hamburger-expand-div">
-              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><div className="text-dark h4" id="readerAbout">About</div></button>
+              <button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><div className="text-dark h4" id="readerAbout">About</div></button>
               <a href="https://github.com/taslater/Dash-Reader-Frontend" target="_blank" rel="noopener noreferrer"><div className="text-dark h4" id="githubLink">Github</div></a>
             </div>
           </div>
