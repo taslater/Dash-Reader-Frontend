@@ -45,8 +45,7 @@
   height: calc(100% - 2 * var(--text-area-margin));
   padding: 2em;
   resize: none;
-  word-break: break-all;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
   border-radius: 0.5em;
   border: 1px solid var(--font-color);
   overflow-y: scroll;
