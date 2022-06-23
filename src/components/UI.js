@@ -14,7 +14,7 @@ function UI(props) {
       {/* <section className='optionButtons'>{optionButtons}</section> */}
 
       <div className="dropdown">
-        <select className="btn dropdown-toggle optionButtons" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{optionButtons}</select>
+        <select className="btn dropdown-toggle optionButtons" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">{optionButtons}</select>
         {/* <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"></div> */}
       </div>
     </section>

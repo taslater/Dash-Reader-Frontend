@@ -3,7 +3,7 @@
   --bs-secondary: rgb(164, 164, 164);
 }
 
-#RSVP-container > div {
+.RSVP-container > div {
   display: flex;
 }
 
