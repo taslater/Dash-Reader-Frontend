@@ -13,7 +13,7 @@
 
 body {
   margin: 0;
-  font-family: arvo;
+  font-family: atk-hl;
   color: var(--font-color);
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
@@ -28,6 +28,34 @@ body {
 @font-face {
   font-family: arvo;
   src: url("static/fonts/ARVO-all/Arvo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: atk-hl;
+  src: url("static/fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: atk-hl;
+  src: url("static/fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: atk-hl;
+  src: url("static/fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: atk-hl;
+  src: url("static/fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
 }
 
 .hamburger {
