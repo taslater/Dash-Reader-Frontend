@@ -2,15 +2,16 @@ import React, {useEffect} from 'react'
 import MediaControl from './MediaControl';
 import dashRSVP from '../lib/rsvp'
 import '../lib/rsvp.css'
+import './RsvpComponent.css'
 
 function RsvpComponent(props) {
   useEffect(() => {
-    dashRSVP.init("rsvp-display-container")
+    dashRSVP.init("rsvp-text-container")
   });
 
   return (
-    <div>
-      <div id="rsvp-display-container"></div>
+    <div className='rsvp-react-container'>
+      <div id="rsvp-text-container"></div>
       <MediaControl
         onPlay={()=>{dashRSVP.play(props.inputText)}}
         onPause={()=>{dashRSVP.pause()}}
