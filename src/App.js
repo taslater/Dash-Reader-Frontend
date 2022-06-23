@@ -1,6 +1,7 @@
 import './App.css';
 import UIContainer from './components/UIContainer';
-import About from './navbar/About'
+import About from './navbar/About';
+import How from './navbar/How';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
         <div className="pos-f-t">
           <div className="collapse hamburger-expand-container" id="navbarToggleExternalContent">
             <div className="hamburger-expand-div">
-              <button className="btn" data-toggle="modal" data-target="#myModal"><div className="text-dark h4" id="readerAbout">About</div></button>
+              <button className="btn" data-toggle="modal" data-target="#howModal"><div className="text-dark h4" id="readerAbout">How it Works</div></button>
+              <button className="btn" data-toggle="modal" data-target="#aboutModal"><div className="text-dark h4" id="readerAbout">About</div></button>
               <a href="https://github.com/taslater/Dash-Reader-Frontend" target="_blank" rel="noopener noreferrer"><div className="text-dark h4" id="githubLink">Github</div></a>
             </div>
           </div>
@@ -22,9 +24,14 @@ function App() {
           </nav>
         </div>
       </header>
-      <div id="myModal" class="modal fade" role="dialog">
+      <div id="aboutModal" className="modal fade" role="dialog">
         <div class="modal-dialog">
           <About />
+        </div>
+      </div>
+      <div id="howModal" className="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <How />
         </div>
       </div>
       <UIContainer />
