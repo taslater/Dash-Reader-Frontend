@@ -2,11 +2,12 @@ import './UIContainer.css'
 import UI from './UI';
 import React, { useState } from 'react'
 import RsvpComponent from './RsvpComponent';
+import defaultText from './DefaultText'
 
 
 function UIContainer() {
 
-  const [inputText, setInputText] = useState("")
+  const [inputText, setInputText] = useState(defaultText)
   const [binonicText, setBinonicText] = useState("")
 
   const textInputHandler = (e) => {
