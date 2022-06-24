@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dash-Reader-Frontend/static/css/main.3a458e68.css",
-    "main.js": "/Dash-Reader-Frontend/static/js/main.daf9d05a.js",
+    "main.js": "/Dash-Reader-Frontend/static/js/main.ceb7d69c.js",
     "static/js/787.68c0d745.chunk.js": "/Dash-Reader-Frontend/static/js/787.68c0d745.chunk.js",
     "static/media/AtkinsonHyperlegible-BoldItalic.ttf": "/Dash-Reader-Frontend/static/media/AtkinsonHyperlegible-BoldItalic.23edeb4cbf5a339bb951.ttf",
     "static/media/AtkinsonHyperlegible-Bold.ttf": "/Dash-Reader-Frontend/static/media/AtkinsonHyperlegible-Bold.8dddb94b27fe0590f013.ttf",
@@ -14,11 +14,11 @@
     "static/media/arrow-clockwise.svg": "/Dash-Reader-Frontend/static/media/arrow-clockwise.2ba775456dd6033575190ba73b148bac.svg",
     "static/media/play-circle.svg": "/Dash-Reader-Frontend/static/media/play-circle.af4c6fc2a07a71414616337856aebf7a.svg",
     "main.3a458e68.css.map": "/Dash-Reader-Frontend/static/css/main.3a458e68.css.map",
-    "main.daf9d05a.js.map": "/Dash-Reader-Frontend/static/js/main.daf9d05a.js.map",
+    "main.ceb7d69c.js.map": "/Dash-Reader-Frontend/static/js/main.ceb7d69c.js.map",
     "787.68c0d745.chunk.js.map": "/Dash-Reader-Frontend/static/js/787.68c0d745.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a458e68.css",
-    "static/js/main.daf9d05a.js"
+    "static/js/main.ceb7d69c.js"
   ]
 }
