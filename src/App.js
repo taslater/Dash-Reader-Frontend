@@ -1,6 +1,7 @@
 import './App.css';
 import UIContainer from './components/UIContainer';
 import About from './navbar/About';
+import GitHubModal from './navbar/GitHubModal';
 import How from './navbar/How';
 
 
@@ -14,7 +15,9 @@ function App() {
             <div className="hamburger-expand-div">
               <button className="btn" data-toggle="modal" data-target="#howModal"><div className="text-dark h4" id="readerAbout">How it Works</div></button>
               <button className="btn" data-toggle="modal" data-target="#aboutModal"><div className="text-dark h4" id="readerAbout">About</div></button>
-              <a href="https://github.com/taslater/Dash-Reader-Frontend" target="_blank" rel="noopener noreferrer"><div className="text-dark h4" id="githubLink">Github</div></a>
+              <button className="btn" data-toggle="modal" data-target="#githubModal"><div className="text-dark h4">Github</div></button>
+              {/* GitHubModal */}
+              {/* <a href="https://github.com/taslater/Dash-Reader-Frontend" target="_blank" rel="noopener noreferrer"><div className="text-dark h4" id="githubLink">Github</div></a> */}
             </div>
           </div>
           <nav className="navbar navbar-light bg-transparent float-right">
@@ -34,9 +37,14 @@ function App() {
           <How />
         </div>
       </div>
+      <div id="githubModal" className="modal fade" role="dialog">
+        <div className="modal-dialog">
+          <GitHubModal />
+        </div>
+      </div>
       <UIContainer />
       <footer>
-        <a href="https://readgood.azurewebsites.net/" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/AcademyPgh/S14-Reading-Assistance" target="_blank" rel="noopener noreferrer">
           <p className='footer-api-link'>
             Check out our API
           </p>
